@@ -444,10 +444,11 @@
         }
 
         .hero-image img {
-            width: 100%;
+            width: 120%;
             height: auto;
             display: block;
             object-fit: contain;
+            margin-top: 250px;
         }
 
         .hero-image-placeholder {
@@ -3579,8 +3580,10 @@
 
             .hero-image img {
                 object-fit: cover;
-                max-height: 250px;
-                width: 100%;
+                max-height: 250px !important;
+                height: 250px !important;
+                width: 100% !important;
+                margin-top: 0 !important;
             }
 
             .hero-image-blob,
