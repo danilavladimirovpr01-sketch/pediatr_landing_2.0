@@ -3586,10 +3586,9 @@
 
             /* Hero Visual */
             .hero-visual {
-                order: -1;
-                max-height: 50px;
+                max-height: 100px;
                 overflow: hidden;
-                margin-bottom: 12px;
+                margin-top: 16px;
             }
 
             .hero-image-wrapper {
@@ -3599,8 +3598,8 @@
 
             .hero-image img {
                 object-fit: cover;
-                max-height: 50px !important;
-                height: 50px !important;
+                max-height: 100px !important;
+                height: 100px !important;
                 width: 100% !important;
                 margin-top: 0 !important;
             }
