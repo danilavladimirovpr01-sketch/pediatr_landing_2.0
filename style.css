@@ -3507,6 +3507,8 @@
                 font-size: 24px;
                 line-height: 1.2;
                 margin-bottom: 8px;
+                word-wrap: break-word;
+                overflow-wrap: break-word;
             }
 
             .hero-subtitle {
@@ -3538,14 +3540,11 @@
             /* Hero Stats - Horizontal Scroll */
             .hero-stats {
                 display: flex;
-                gap: 16px;
+                gap: 12px;
                 overflow-x: auto;
                 -webkit-overflow-scrolling: touch;
                 scrollbar-width: none;
                 padding: 16px 0;
-                margin: 0 -20px;
-                padding-left: 20px;
-                padding-right: 20px;
             }
 
             .hero-stats::-webkit-scrollbar {
@@ -3554,9 +3553,9 @@
 
             .hero-stat {
                 flex-shrink: 0;
-                min-width: 130px;
+                width: 140px;
                 text-align: center;
-                padding: 14px 16px;
+                padding: 14px 12px;
                 background: white;
                 border-radius: var(--radius-lg);
                 box-shadow: var(--shadow-sm);
@@ -3572,7 +3571,6 @@
 
             /* Hero Visual */
             .hero-visual {
-                margin: 0 -20px;
                 max-height: 80px;
                 overflow: hidden;
                 margin-top: 20px;
