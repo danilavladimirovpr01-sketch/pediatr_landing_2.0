@@ -3538,11 +3538,17 @@
                 align-items: center;
                 gap: 6px;
                 white-space: nowrap;
+                background: white;
+                border-radius: var(--radius-full);
+                color: var(--olive);
+                box-shadow: var(--shadow-sm);
             }
 
             .hero-badge-dot {
                 width: 6px;
                 height: 6px;
+                background: var(--olive);
+                border-radius: 50%;
             }
 
             .hero-cta {
