@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="style.css?v=17">
+    <link rel="stylesheet" href="style.css?v=18">
 </head>
 <body>
     <!-- Header -->
@@ -1199,6 +1199,14 @@
             menuToggle.classList.toggle('active');
             document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : '';
         }
+
+        // Reset hero stats scroll to start
+        document.addEventListener('DOMContentLoaded', function() {
+            const heroStats = document.querySelector('.hero-stats');
+            if (heroStats) {
+                heroStats.scrollLeft = 0;
+            }
+        });
     </script>
 </body>
 </html>
