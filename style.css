@@ -3584,24 +3584,9 @@
                 font-size: 11px;
             }
 
-            /* Hero Visual */
+            /* Hero Visual - скрыть на мобилке */
             .hero-visual {
-                max-height: 100px;
-                overflow: hidden;
-                margin-top: 16px;
-            }
-
-            .hero-image-wrapper {
-                max-width: 100%;
-                margin-bottom: 0;
-            }
-
-            .hero-image img {
-                object-fit: cover;
-                max-height: 100px !important;
-                height: 100px !important;
-                width: 100% !important;
-                margin-top: 0 !important;
+                display: none !important;
             }
 
             .hero-image-blob,
