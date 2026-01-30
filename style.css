@@ -3320,6 +3320,19 @@
            MOBILE RESPONSIVE - Мобильная адаптация
            ============================================= */
 
+        /* Скрыть мобильные элементы на десктопе */
+        .mobile-menu-toggle {
+            display: none;
+        }
+
+        .mobile-menu {
+            display: none;
+        }
+
+        .phone-icon-svg {
+            display: none;
+        }
+
         @media (max-width: 768px) {
             /* Container отступы */
             .container {
@@ -3357,6 +3370,7 @@
             }
 
             .header-phone .phone-icon-svg {
+                display: block;
                 width: 20px;
                 height: 20px;
                 color: var(--primary);
