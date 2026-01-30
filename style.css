@@ -3531,24 +3531,27 @@
             }
 
             .hero-badge {
-                font-size: 11px;
-                padding: 5px 10px;
-                margin-bottom: 10px;
-                display: inline-flex;
-                align-items: center;
-                gap: 6px;
-                white-space: nowrap;
-                background: white;
-                border-radius: var(--radius-full);
-                color: var(--olive);
-                box-shadow: var(--shadow-sm);
+                display: inline-flex !important;
+                align-items: center !important;
+                gap: 6px !important;
+                padding: 5px 10px !important;
+                background: white !important;
+                border-radius: 50px !important;
+                font-size: 11px !important;
+                font-weight: 500 !important;
+                color: #919677 !important;
+                box-shadow: 0 2px 8px rgba(45, 42, 38, 0.06) !important;
+                margin-bottom: 10px !important;
+                visibility: visible !important;
+                opacity: 1 !important;
             }
 
             .hero-badge-dot {
-                width: 6px;
-                height: 6px;
-                background: var(--olive);
-                border-radius: 50%;
+                width: 6px !important;
+                height: 6px !important;
+                background: #919677 !important;
+                border-radius: 50% !important;
+                display: block !important;
             }
 
             .hero-cta {
