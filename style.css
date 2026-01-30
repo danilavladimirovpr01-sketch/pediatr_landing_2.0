@@ -3338,6 +3338,11 @@
             /* Container отступы */
             .container {
                 padding: 0 20px;
+                overflow-x: visible;
+            }
+
+            .hero .container {
+                overflow-x: visible;
             }
 
             /* =========== HEADER =========== */
@@ -3485,8 +3490,9 @@
 
             /* =========== HERO SECTION =========== */
             .hero {
-                padding: 80px 0 30px;
+                padding: 75px 0 25px;
                 min-height: auto;
+                overflow-x: visible;
             }
 
             .hero-deco-blob {
@@ -3495,39 +3501,43 @@
 
             .hero-grid {
                 grid-template-columns: 1fr;
-                gap: 20px;
+                gap: 16px;
+            }
+
+            .hero-content {
+                overflow-x: visible;
             }
 
             .hero h1 {
-                font-size: 26px;
-                line-height: 1.2;
-                margin-bottom: 12px;
+                font-size: 22px;
+                line-height: 1.15;
+                margin-bottom: 8px;
             }
 
             .hero-subtitle {
-                font-size: 14px;
-                margin-bottom: 18px;
-                line-height: 1.5;
+                font-size: 13px;
+                margin-bottom: 14px;
+                line-height: 1.4;
             }
 
             .hero-badge {
-                font-size: 12px;
-                padding: 6px 12px;
-                margin-bottom: 12px;
+                font-size: 11px;
+                padding: 5px 10px;
+                margin-bottom: 10px;
             }
 
             .hero-cta {
                 flex-direction: column;
-                gap: 10px;
-                margin-bottom: 24px;
+                gap: 8px;
+                margin-bottom: 20px;
             }
 
             .hero-cta .btn,
             .btn-play {
                 width: 100%;
                 justify-content: center;
-                padding: 12px 20px;
-                font-size: 14px;
+                padding: 11px 18px;
+                font-size: 13px;
             }
 
             /* Hero Stats - Horizontal Scroll */
