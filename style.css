@@ -3534,7 +3534,9 @@
                 font-size: 10px;
                 padding: 4px 8px;
                 margin-bottom: 8px;
-                display: inline-block;
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
                 white-space: nowrap;
             }
 
@@ -3619,16 +3621,23 @@
 
             .feature-item {
                 flex-shrink: 0;
+                flex-direction: column;
+                text-align: center;
             }
 
             .feature-icon {
                 width: 40px;
                 height: 40px;
+                margin: 0 auto;
             }
 
             .feature-icon svg {
                 width: 20px;
                 height: 20px;
+            }
+
+            .feature-text {
+                text-align: center;
             }
 
             .feature-title {
