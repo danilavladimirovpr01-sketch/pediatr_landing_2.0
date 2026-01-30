@@ -3570,7 +3570,8 @@
 
             /* Hero Stats - Horizontal Scroll */
             .hero-stats {
-                display: flex;
+                display: flex !important;
+                justify-content: flex-start !important;
                 gap: 12px;
                 overflow-x: auto;
                 -webkit-overflow-scrolling: touch;
