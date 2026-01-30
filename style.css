@@ -3608,36 +3608,26 @@
             }
 
             .features-strip .container {
-                gap: 20px;
-                overflow-x: auto;
-                -webkit-overflow-scrolling: touch;
-                scrollbar-width: none;
-                justify-content: flex-start;
-            }
-
-            .features-strip .container::-webkit-scrollbar {
-                display: none;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 16px;
+                max-width: 400px;
+                margin: 0 auto;
+                justify-items: center;
             }
 
             .feature-item {
-                flex-shrink: 0;
-                flex-direction: column;
-                text-align: center;
+                width: 100%;
             }
 
             .feature-icon {
                 width: 40px;
                 height: 40px;
-                margin: 0 auto;
             }
 
             .feature-icon svg {
                 width: 20px;
                 height: 20px;
-            }
-
-            .feature-text {
-                text-align: center;
             }
 
             .feature-title {
